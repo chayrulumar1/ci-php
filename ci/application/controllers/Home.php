@@ -12,6 +12,7 @@ class home extends CI_Controller
     {
         $this->load->view('templates/header');
         $this->load->view('templates/sidebar');
+        $this->load->view('admin/masuk');
         $this->load->view('templates/footer');
       
     }
